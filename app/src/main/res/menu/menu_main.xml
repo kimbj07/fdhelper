@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".MainActivity">
+
+    <!-- 아이템 적용 -->
+    <item android:id="@+id/menu_use_item"
+          android:title="@string/menu_use_item">
+        <menu>
+            <item android:id="@+id/submenu_use_item_condition"
+                  android:title="@string/submenu_use_item_condition"/>
+            <item android:id="@+id/submenu_use_item_stamina"
+                  android:title="@string/submenu_use_item_stamina"/>
+            <item android:id="@+id/submenu_use_item_condition_and_stamina"
+                  android:title="@string/submenu_use_item_condition_and_stamina"/>
+
+            <item android:id="@+id/submenu_use_item_yellow_card"
+                  android:title="@string/submenu_use_item_yellow_card"/>
+
+            <item android:id="@+id/submenu_use_item_taurine"
+                  android:title="@string/submenu_use_item_taurine"/>
+        </menu>
+    </item>
+
+    <!-- 아이템 조합 -->
+    <item android:id="@+id/menu_combine_item"
+          android:title="@string/menu_combine_item">
+        <menu>
+            <item android:id="@+id/submenu_combine_item_low"
+                  android:title="@string/submenu_combine_item_low"/>
+            <item android:id="@+id/submenu_combine_item_max_condition"
+                  android:title="@string/submenu_combine_item_max_condition"/>
+            <item android:id="@+id/submenu_combine_item_max_stamina"
+                  android:title="@string/submenu_combine_item_max_stamina"/>
+        </menu>
+    </item>
+
+    <!-- 친구 도전 -->
+    <item android:id="@+id/menu_challenge_friend"
+          android:title="@string/menu_challenge_friend"/>
+
+    <!-- 도시락 제조 -->
+    <item android:id="@+id/menu_make_lunch"
+          android:title="@string/menu_make_lunch"/>
+
+
+    <!-- 도움말 -->
+    <item android:id="@+id/menu_help"
+          android:title="@string/menu_help"/>
+</menu>
